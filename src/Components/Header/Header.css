@@ -1,0 +1,52 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  color: var(--main-font-color);
+}
+
+.h-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.name-logo {
+  text-transform: uppercase;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+}
+
+.nav-link:hover {
+  cursor: pointer;
+}
+
+#cor {
+  width: 82px;
+
+  font-family: "Rajdhani";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 37px;
+  line-height: 51px;
+  text-align: center;
+  letter-spacing: 0.04em;
+}
+
+#bitt {
+  position: relative;
+  width: 91px;
+  top: -15px;
+  font-family: "Rajdhani";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 51px;
+  text-align: center;
+  letter-spacing: 0.17em;
+}
