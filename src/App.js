@@ -5,21 +5,34 @@ import Header from "./Components/Header/Header";
 import Skills from "./Components/Skills/Skills";
 
 import { Outlet } from "react-router-dom";
+import About from "./Components/About/About";
+import Contact from "./Components/Contact/Contact";
+import Footer from "./Components/Footer/Footer";
+
+import { ArrowUpSquare } from "@styled-icons/bootstrap/ArrowUpSquare";
 
 function App() {
   return (
     <div className="App">
       <article className="app-container">
-        <Header />
-        <Hero
-          strapline="mern"
-          tod="full stack web developer"
-          intro={
-            "A passionate full-stack developer with 4 years of experience in web development. Strong ability to develop and deliver high-quality, user-friendly web applications. Strong understanding of front-end and back-end development, as well as database management."
-          }
+        <ArrowUpSquare
+          id="arrow-up-square"
+          size={48}
+          onClick={(e) => {
+            window.scroll({
+              top: 0,
+              left: 0,
+              behavior: "smooth",
+            });
+          }}
         />
+        <Header />
+        <Hero strapline="mern" tod="full stack web developer" />
 
         <Skills />
+        <About />
+        <Contact />
+        <Footer />
       </article>
 
       {/* <section>
