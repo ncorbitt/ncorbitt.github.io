@@ -145,11 +145,24 @@ body {
   /** Header Section*/
 
   /** Hero Section*/
+
+  header {
+    margin-top: -30px;
+  }
+
+  #hero {
+    margin: 0px;
+  }
+
   #type-of-dev {
     font-size: 2em;
     flex-flow: row wrap;
     margin: 40px 0px 60px 0px;
     line-height: 35px;
+  }
+
+  #hero_container {
+    margin-top: 0px;
   }
 
   #more-about-me {
@@ -161,9 +174,18 @@ body {
   }
 
   /** Skills Section */
+  .skill {
+    width: auto !important;
+  }
+
+  #skills-title-section {
+    justify-content: center;
+    margin-top: 30px;
+  }
 
   #skills-title-section * {
     font-size: 50px;
+    height: 150px;
   }
   #skill-container {
     flex-flow: column wrap;
@@ -175,22 +197,8 @@ body {
     padding-bottom: 100px;
   }
 
-  /********test**************/
-  .skill {
-    width: auto !important;
-  }
-
-  #skill-section {
-    justify-content: center;
-  }
-
-  #skills-title-section {
-    justify-content: center;
-  }
-
-  /***************************/
-
   /** About Section */
+
   .about-title-section-main {
     flex-flow: column wrap;
     flex: 1 1 auto;
@@ -209,15 +217,24 @@ body {
 
   #about-title-section * {
     font-size: 50px;
+    height: 150px;
+    margin-top: 30px;
+  }
+  #about-title {
+    margin-top: 0px;
   }
 
   /** Contact Section */
 
   #contact-section {
     justify-content: center;
+    margin-top: 30px;
   }
   #contact-title-section * {
     font-size: 40px;
+    height: 150px;
+
+    justify-content: center;
   }
 
   #nates-details {
