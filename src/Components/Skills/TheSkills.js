@@ -204,16 +204,20 @@ function TheSkills() {
           onMouseEnter={() => setStudyHover(true)}
           onMouseLeave={() => setStudyHover(false)}
         >
-          <Skill_Image className="icon" src={studying} />
+          <Skill_Image
+            className="icon"
+            src={studying}
+            style={{ marginLeft: "-10px" }}
+          />
           <Skill_Title>studying</Skill_Title>
           <Skill_About>
             👍🏾 Google's <span class="hi-light">API Developer Course</span>{" "}
             <br />
-            👍🏾 JavaScript Data Structures and Algorithms by{" "}
+            👍🏾 JavaScript Data Structures and Algorithms -{" "}
             <span class="hi-light">Sammie Bae</span>
             <br />
-            👍🏾 C++ A Beginners Guide by{" "}
-            <span class="hi-light">Herbert Schildt</span>.
+            👍🏾 C++ A Beginners Guide -{" "}
+            <span class="hi-light">Herbert Schildt</span>
           </Skill_About>
         </Skill_Item>
       </Skill_Container>
