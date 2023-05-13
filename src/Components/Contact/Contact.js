@@ -54,12 +54,13 @@ const Contact_Me_Section = styled.section`
   justify-content: center;
   // margin: 0% 0% 0% 15%;
 
-  // h2 {
-  //   background: linear-gradient(89deg,#fff,#89525d,#2b3e58);
-  //   -webkit-background-clip: text;
-  //   -webkit-text-fill-color: transparent;
-  // }
 
+  #contact-email {
+    background: linear-gradient(89deg,#fff,#89525d,#2b3e58);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
   h2:hover {
     background: linear-gradient(89deg,#fff,#89525d,#2b3e58);
     -webkit-background-clip: text;
@@ -78,6 +79,13 @@ const Contact_Me_Section = styled.section`
   //   -webkit-background-clip: text;
   //   -webkit-text-fill-color: transparent;
   // }
+
+  // h2 {
+    //   background: linear-gradient(89deg,#fff,#89525d,#2b3e58);
+    //   -webkit-background-clip: text;
+    //   -webkit-text-fill-color: transparent;
+    // }
+  
 }
 `;
 const Contact_Form_Section = styled.section``;
