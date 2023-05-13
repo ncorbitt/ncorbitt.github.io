@@ -73,7 +73,7 @@ const Type_of_Developer = styled.span`
 const Intro = styled.section`
   position: relative;
   top: -30px;
-  //width: 800px;
+  max-width: 68%;
   //height: 96px;
   font-style: normal;
   font-weight: 400;

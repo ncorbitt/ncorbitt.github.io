@@ -71,7 +71,6 @@ const skillStyles = {
   justifyContent: "space-between",
   alignItems: "flex-start",
   padding: "30px 20px 20px",
-  background: "#4c2e34",
   zIndex: 2,
   position: "relative",
   border: "1px solid white",

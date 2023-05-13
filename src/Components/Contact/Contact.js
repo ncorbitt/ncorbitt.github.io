@@ -33,6 +33,7 @@ const Contact_Title_Shadow = styled.span`
   letter-spacing: 0.065em;
   color: rgba(255, 255, 255, 0.18);
   text-transform: uppercase;
+  margin-top: 30px;
 `;
 const Contact_Title = styled.span`
   display: flex;
@@ -52,6 +53,31 @@ const Contact_Me_Section = styled.section`
   position: relative;
   justify-content: center;
   // margin: 0% 0% 0% 15%;
+
+  // h2 {
+  //   background: linear-gradient(89deg,#fff,#89525d,#2b3e58);
+  //   -webkit-background-clip: text;
+  //   -webkit-text-fill-color: transparent;
+  // }
+
+  h2:hover {
+    background: linear-gradient(89deg,#fff,#89525d,#2b3e58);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  // using radial
+  // hr {
+  //   background: radial-gradient(#89525d,#2b3e58 123%, transparent);
+  //   -webkit-background-clip: text;
+  //   -webkit-text-fill-color: transparent;
+  // }
+
+  // h2:hover {
+  //   background: linear-gradient(89deg,#fff,#e38d4f,#472426);
+  //   -webkit-background-clip: text;
+  //   -webkit-text-fill-color: transparent;
+  // }
 }
 `;
 const Contact_Form_Section = styled.section``;
@@ -184,7 +210,7 @@ function Contact() {
                 }}
                 href="https://www.linkedin.com/in/nathan-corbitt/"
               >
-                <LinkedinSquare size={100} />{" "}
+                <LinkedinSquare id="LN" size={100} />{" "}
               </Socials_Linkedin>
             </Socials>
           </Nates_Details>

@@ -27,6 +27,7 @@ const MenuOverlaySection = styled.section`
 
   background-color: #984354;
   color: white;
+  border:1px solid white;
   z-index: 100;
   position: absolute;
   font-size: 2em;
@@ -46,8 +47,9 @@ const MenuOverlaySection = styled.section`
 
   @media only screen and (min-width: 320px) {
     & {
-      width: 290px;
-      margin-left: -42px;
+      width: 340px;
+      margin-left: -81px;
+      margin-top: 85px;
     }
   }
 
@@ -59,12 +61,18 @@ const MenuOverlaySection = styled.section`
     }
   }
 
-  @media only screen and (min-width: 425px) {
+  @media only screen and (min-width: 425px) and (max-width:767px){
     & {
-      width: 358px;
-      margin-left: -114px;
-      margin-top: 133px;
+      width: 400px;
+      margin-left: -135px;
+      margin-top: 104px;
+  }
     }
+    // & {
+    //   width: 358px;
+    //   margin-left: -114px;
+    //   margin-top: 133px;
+    // }
   }
 `;
 
