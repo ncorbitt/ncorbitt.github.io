@@ -60,6 +60,10 @@ const Skill_About = styled.p`
   font-size: 14px;
   line-height: 21px;
   letter-spacing: 0.065em;
+
+  a {
+    text-decoration: none;
+  }
 `;
 /** STYLE OBJECTS */
 const skillStyles = {
@@ -196,7 +200,7 @@ function TheSkills() {
           </Skill_About>
         </Skill_Item>
 
-        <Skill_Item
+        {/* <Skill_Item
           className="skill transition min-width-studying"
           id="skill-studying"
           style={skillStyles}
@@ -217,6 +221,75 @@ function TheSkills() {
             <br />
             👍🏾 C++ A Beginners Guide -{" "}
             <span class="hi-light">Herbert Schildt</span>
+          </Skill_About>
+        </Skill_Item> */}
+
+        <Skill_Item
+          className="skill transition min-width-studying"
+          id="skill-studying"
+          style={skillStyles}
+          onMouseEnter={() => setStudyHover(true)}
+          onMouseLeave={() => setStudyHover(false)}
+        >
+          <Skill_Image
+            className="icon"
+            src={studying}
+            style={{ marginLeft: "-10px" }}
+          />
+          <Skill_Title>Certificates/Credentials</Skill_Title>
+          <Skill_About>
+            👍🏾 {"  "}{" "}
+            <span>
+              <a
+                href="https://www.linkedin.com/learning/certificates/0bb6f79fff0f01287bae51205282b4d6e8903a9b65f796faac358c5e7836a6d2?trk=backfilled_certificate"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ color: "inherit" }}
+              >
+                Getting started with C++
+              </a>
+              <i class="hi-light"> - LinkedIn</i>
+            </span>
+            <br />
+            👍🏾 {"  "}
+            <span>
+              <a
+                href="https://www.linkedin.com/learning/certificates/1bd1b7b316e8275f31869eb9980eb9204e0acd9d4d586fcdc5a4416d81b01e9e?trk=backfilled_certificate"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ color: "inherit" }}
+              >
+                Become a Node.js Developer
+              </a>
+              <i class="hi-light"> - LinkedIn</i>
+            </span>
+            <br />
+            👍🏾 {"  "}
+            <span>
+              <a
+                href="https://www.linkedin.com/learning/certificates/1658b9b135b8dcda1e0964e85512a9905779738c0e03ff530e02a4071537a668?trk=backfilled_certificate"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ color: "inherit" }}
+              >
+                Become a Back-End Web Developer
+              </a>
+              <i class="hi-light"> - LinkedIn</i>
+            </span>
+            <br />
+            👍🏾 {"  "}
+            <span>
+              <a
+                href="https://www.linkedin.com/learning/certificates/95e7dc527f3048ab1a642579be4b4d60030d1e0b711a780df44d8667207575b8?trk=backfilled_certificate"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ color: "inherit" }}
+              >
+                Building RESTful APIs with Node.js and Express
+              </a>
+              <i class="hi-light"> - LinkedIn</i>
+            </span>
+            <br />
           </Skill_About>
         </Skill_Item>
       </Skill_Container>

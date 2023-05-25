@@ -117,7 +117,7 @@ function About() {
             applications. Proven ability to work with a variety of technologies,
             including HTML, CSS, <span className="hi-light">JavaScript</span>,
             MySQL, and MongoDB. Strong problem-solving and analytical skills.
-            Ability to work independently and as part of a team. <br />
+            Able to work independently and as part of a team. <br />
             <br /> I’m also working on getting{" "}
             <span className="hi-light">
               <a
