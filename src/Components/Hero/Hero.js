@@ -132,12 +132,11 @@ function Hero({ strapline, tod, intro }) {
           <Intro className="intro" id="intro">
             A <span className="hi-light">passionate</span> full-stack developer
             with <span className="hi-light">6 years</span> of experience in web
-            development. <span className="hi-light">Exceptional</span> ability
-            to develop and <span className="hi-light">deliver</span>{" "}
-            high-quality, user-friendly{" "}
-            <span className="hi-light">web applications</span>. A Solid
-            understanding of front-end and back-end development, as well as
-            database management.
+            development. <span className="hi-light">Strong</span> ability to
+            develop and <span className="hi-light">deliver</span> high-quality,
+            user-friendly <span className="hi-light">web applications</span>. A
+            Solid understanding of front-end and back-end development, as well
+            as database management.
           </Intro>
 
           <More_About_Me id="more-about-me">
