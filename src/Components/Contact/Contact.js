@@ -216,6 +216,9 @@ function Contact() {
                 onMouseLeave={(e) => {
                   e.target.classList.remove("pulse");
                 }}
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ color: "inherit" }}
                 href="https://www.linkedin.com/in/nathan-corbitt/"
               >
                 <LinkedinSquare id="LN" size={100} />{" "}

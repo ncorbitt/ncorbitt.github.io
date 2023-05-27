@@ -196,7 +196,7 @@ function TheSkills() {
           </Skill_About>
         </Skill_Item>
 
-        <Skill_Item
+        {/* <Skill_Item
           className="skill transition min-width-studying"
           id="skill-studying"
           style={skillStyles}
@@ -217,6 +217,67 @@ function TheSkills() {
             <br />
             👍🏾 C++ A Beginners Guide -{" "}
             <span class="hi-light">Herbert Schildt</span>
+          </Skill_About>
+        </Skill_Item> */}
+
+        <Skill_Item
+          className="skill transition min-width-studying"
+          id="skill-studying"
+          style={skillStyles}
+          onMouseEnter={() => setStudyHover(true)}
+          onMouseLeave={() => setStudyHover(false)}
+        >
+          <Skill_Image
+            className="icon"
+            src={studying}
+            style={{ marginLeft: "-10px" }}
+          />
+          <Skill_Title>Certificates </Skill_Title>
+          <Skill_About>
+            👍🏾{" "}
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: "inherit" }}
+              href="https://www.linkedin.com/learning/certificates/0bb6f79fff0f01287bae51205282b4d6e8903a9b65f796faac358c5e7836a6d2?trk=backfilled_certificate"
+            >
+              Become a C++ Developer
+            </a>{" "}
+            - <span class="hi-light">LinkedIn</span>
+            <br />
+            👍🏾{" "}
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: "inherit" }}
+              href="https://www.linkedin.com/learning/certificates/1658b9b135b8dcda1e0964e85512a9905779738c0e03ff530e02a4071537a668?trk=backfilled_certificate"
+            >
+              Back-end Web Developer
+            </a>{" "}
+            - <span class="hi-light">LinkedIn</span>
+            <br />
+            👍🏾{" "}
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: "inherit" }}
+              href="https://www.linkedin.com/learning/certificates/1bd1b7b316e8275f31869eb9980eb9204e0acd9d4d586fcdc5a4416d81b01e9e?trk=backfilled_certificate"
+            >
+              NodeJs Developer
+            </a>{" "}
+            - <span class="hi-light">LinkedIn</span>
+            <br />
+            👍🏾{" "}
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: "inherit" }}
+              href="https://www.linkedin.com/learning/certificates/e96f3fc1a250d6331e5d9b61527c7a6f8bb916e0754ffa1adbd83efc6f918ace?trk=backfilled_certificate"
+            >
+              SQL Programming
+            </a>{" "}
+            - <span class="hi-light">LinkedIn</span>
+            <br />
           </Skill_About>
         </Skill_Item>
       </Skill_Container>

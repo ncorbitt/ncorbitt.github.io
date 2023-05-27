@@ -84,6 +84,10 @@ const About_Me_P = styled.p`
   &:hover {
     box-shadow: 14px 14px 24px black;
   }
+
+  ul li {
+    margin-left: 30px;
+  }
 `;
 
 function About() {
@@ -118,8 +122,8 @@ function About() {
             including HTML, CSS, <span className="hi-light">JavaScript</span>,
             MySQL, and MongoDB. Strong problem-solving and analytical skills.
             Ability to work independently and as part of a team. <br />
-            <br /> I’m also working on getting{" "}
-            <span className="hi-light">
+            <br /> {/* i’m also working on getting{" "} */}
+            {/* <span className="hi-light">
               <a
                 href="https://www.cloudskillsboost.google/paths/21"
                 target="_blank"
@@ -128,10 +132,34 @@ function About() {
               >
                 Google’s API Developer Certification
               </a>
+            </span>{" "} */}
+            I'm also enthusiastic in helping businesses migrate to Google Cloud
+            which is a powerful platform that can help businesses improve their
+            performance, security, and scalability. <br />
+            <br />
+            <ul>
+              With Goolge CLoud:
+              <li>
+                Increase performance by using Google's global network of data
+                centers
+              </li>
+              <li>
+                Improve security by using Google's advanced security features
+              </li>
+              <li>Scale you're businesses easily and cost-effectively</li>
+            </ul>
+            <br />
+            <span>
+              I'f your're looking for a powerful platform to help your business
+              grow, the Google Gloud is the right choice for you.
             </span>{" "}
-            to help businesses migrate to Google Cloud. Google Cloud is a
-            powerful platform that can help businesses improve their
-            performance, security, and scalability.
+            <span
+              className="hi-light"
+              style={{ position: "relative", top: 10 }}
+            >
+              {" "}
+              Shoot me and email or give me a call.
+            </span>
           </About_Me_P>
 
           <SidewaysText text="About me" />
